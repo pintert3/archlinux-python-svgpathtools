@@ -1,10 +1,12 @@
 pkgbase = python-svgpathtools
 	pkgdesc = Manipulate and analyze SVG Path objects and Bezier curves
 	pkgver = 1.6.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/mathandy/svgpathtools
 	arch = any
 	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
 	makedepends = python-setuptools
 	depends = python
 	depends = python-numpy
